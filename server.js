@@ -27,7 +27,7 @@ hbs.registerHelper('getCurrentFullYeard', ()=>{
 
 app.get('/', (req, res) => {
 	res.render("home.hbs", {
-		pageTitle : 'About page',
+		pageTitle : 'Home page',
 		welcomeMsg : 'This is home page',
 		currentYear : new Date().getFullYear()+1
 	});
